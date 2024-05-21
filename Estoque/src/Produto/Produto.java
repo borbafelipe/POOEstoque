@@ -1,9 +1,10 @@
 package Produto;
 
-import java.time.LocalDateTime;
 import Produto.Enum.Disponibilidade;
+import java.time.LocalDateTime;
 
 public abstract class Produto {
+
     private int id;
     private String nome;
     private String descricao;

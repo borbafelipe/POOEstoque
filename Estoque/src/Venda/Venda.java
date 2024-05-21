@@ -3,6 +3,7 @@ package Venda;
 import java.time.LocalDateTime;
 
 public class Venda {
+
     private String produtoID;
     private String tamanho;
     private String vendedorID;
@@ -15,7 +16,6 @@ public class Venda {
         this.data = LocalDateTime.now();
     }
 
-    
     public String getProdutoID() {
         return produtoID;
     }

@@ -1,7 +1,8 @@
 package User;
 
 public abstract class User {
-    protected String nome; 
+
+    protected String nome;
     protected String userID;
     protected String cpf;
 

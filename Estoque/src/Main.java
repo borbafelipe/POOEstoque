@@ -1,7 +1,9 @@
+
 import Estoque.Estoque;
 import Produto.Vestuario.Vestuario;
 
 public class Main {
+
     public static void main(String[] args) {
         // Criando o estoque
         Estoque estoque = new Estoque();

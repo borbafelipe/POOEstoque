@@ -4,8 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Vestuario {
+
     private String produtoID;
-    private String nome;
+    private String nome; 
     private String descricao;
     private int preco;
     private Map<String, Integer> quantidadePorTamanho;
@@ -19,7 +20,6 @@ public class Vestuario {
     }
 
     // Getters e Setters
-
     public String getProdutoID() {
         return produtoID;
     }
