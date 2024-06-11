@@ -1,10 +1,9 @@
 package Produto;
 
 import Enum.LabelRoupa;
-import Enum.NumRoupa;
 import Enum.NumCalcado;
+import Enum.NumRoupa;
 import Estoque.Estoque;
-
 import java.util.HashMap;
 import java.util.Map;
 

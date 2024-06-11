@@ -1,8 +1,8 @@
 package Estoque;
 
-import Produto.Produto;
-
 import java.util.ArrayList;
+
+import Produto.Produto;
 
 public class Estoque {
     public static ArrayList<Produto> estoque = new ArrayList<>();
@@ -24,4 +24,5 @@ public class Estoque {
     public static int getQuantidade() {
         return estoque.size();
     }
+    
 }
