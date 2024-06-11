@@ -1,24 +1,23 @@
 package Estoque;
 
+import Produto.Vestuario.Vestuario;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import Produto.Vestuario.Vestuario;
 
 public class Estoque {
+
     private Map<String, Vestuario> itens;
 
     public Estoque() {
         this.itens = new HashMap<>();
     }
 
-  
     public void adicionarItem(Vestuario item) {
         this.itens.put(item.getProdutoID(), item);
     }
 
-  
     public void removerItem(String produtoID) {
         this.itens.remove(produtoID);
     }
